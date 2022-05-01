@@ -1,0 +1,23 @@
+# Include common configuration.
+include: ../tool/dart_test_repo.yaml
+
+presets:
+  browser:
+    platforms:
+    - chrome
+    paths:
+    - test/bootstrap
+    - test/common
+    - test/core
+    - test/di
+    - test/integration
+    - test/platform
+    add_presets: [ci]
+
+  vm:
+    platforms:
+    - vm
+    paths:
+    - test/compiler
+    - test/compiler_integration
+    add_presets: [ci]
