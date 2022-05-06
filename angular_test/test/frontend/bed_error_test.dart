@@ -8,7 +8,7 @@ import 'bed_error_test.template.dart' as ng;
 
 void main() {
   tearDown(disposeAnyRunningTest);
-sdfsfsdfsfsfcvbcb
+sdfsfsdfsfsfcvbcbsdfsdf
   test('should be able to catch errors that occur synchronously', () {
     return CatchSynchronousErrors._runTest();
   });
